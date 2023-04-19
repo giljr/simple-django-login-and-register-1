@@ -120,7 +120,8 @@ LANGUAGES = [
     ('es', _('Spanish')),
 ]
 
-TIME_ZONE = 'UTC'
+# TIME_ZONE = 'UTC'
+TIME_ZONE = 'America/Porto_Velho'
 USE_TZ = True
 
 STATIC_ROOT = os.path.join(CONTENT_DIR, 'static')
